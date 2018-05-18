@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts){
   const arr= []
-  for (let i=0; i < 4; i++){
+  for (let i=0; i < 3; i++){
     arr.push(`${facts[i]}!!!`)
 }
 return arr
