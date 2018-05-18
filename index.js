@@ -9,13 +9,13 @@ function theBeatlesPlay(musicians, instruments) {
 } 
 
 function johnLennonFacts(facts) {
-  const shoutedFacts = []
+  const poutedFacts = []
 
   let i = 0
   while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+    poutedFacts.push(`${facts[i]}!!!`)
     i++
   }
 
-  return shoutedFacts
+  return poutedFacts
 }
