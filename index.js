@@ -19,6 +19,13 @@ function johnLennonFacts(facts) {
 
   return poutedFacts
 }
-function iLoveTheBeatles(goodness){
-  
+function iLoveTheBeatles(n) {
+  const arr = []
+
+  do {
+    arr.push('I love the Beatles!')
+    n++
+  } while (n < 15)
+
+  return arr
 }
